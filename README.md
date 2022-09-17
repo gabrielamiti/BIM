@@ -19,7 +19,8 @@ Inside the loop each area is summed and added to the variable that holds the tot
 
 ### Non BIM expertise 
 By using the mathematical formula, `A=h*w` , the area is found. 
-An excel sheet with all information from the IFC file is used, to check if the data from the script is correct. 
+An excel sheet with all information from the IFC file is used, to check if the data from the script is correct.
+Also the knowledge on Daylight was used to identify which component are relevant for a daylight analysis.
 
 ### IFC concepts 
 `IfcWindow` has been used as an IFC concept. 
