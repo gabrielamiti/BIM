@@ -23,7 +23,13 @@ An excel sheet with all information from the IFC file is used, to check if the d
 Also the knowledge on Daylight and Indoor Climate were used to identify which component are relevant for a  analysis.
 
 ### IFC concepts 
+Before starting analyzing the use case, the architectural IFC model needs to be done. When this is done, and can be loaded into Blender BIM, the script can be used. 
 `IfcWindow` has been used as an IFC concept. 
 From the `IfcWindow` object, the two attributes are used, `Overall.Height` and `Overall.Width`. 
 The properties from the IfcWindow object are also collected in order to get the `PSet_Revit_Constraints` wherein the `sill height` is located. 
 The window `ID` is used, to show which data is connected to the individual window. 
+
+### Further analysis
+For further uses, this script can be used as part of bigger analyse, such as energy use calculations, U-values along with checking if the pane area is above 10% of the floor area. 
+This can be done, by getting building elements such as windows, walls, floor areas and ligthing fixtures. The source of this data would be the materials, properties and dimensions. These analysis could be relevant for Indoor climate and Daylight engineers. 
+When the analysis of the chosen use case are done, other use cases, such as *Architectural* and *Installation* projects can begin. 
